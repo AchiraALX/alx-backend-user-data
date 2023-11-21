@@ -34,4 +34,4 @@ def unauthorized() -> str:
       - authorization status
     """
 
-    abort(401)
+    return abort(401)
